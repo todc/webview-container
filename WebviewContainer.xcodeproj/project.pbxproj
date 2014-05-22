@@ -22,6 +22,7 @@
 		25AF120D192EBBDB00DE473C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25AF11EC192EBBDB00DE473C /* UIKit.framework */; };
 		25AF1215192EBBDB00DE473C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25AF1213192EBBDB00DE473C /* InfoPlist.strings */; };
 		25AF1217192EBBDB00DE473C /* WebviewContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF1216192EBBDB00DE473C /* WebviewContainerTests.m */; };
+		25AF1222192EBC5D00DE473C /* WebviewContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25AF1221192EBC5D00DE473C /* WebviewContainerController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		25AF1212192EBBDB00DE473C /* WebviewContainerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebviewContainerTests-Info.plist"; sourceTree = "<group>"; };
 		25AF1214192EBBDB00DE473C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25AF1216192EBBDB00DE473C /* WebviewContainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebviewContainerTests.m; sourceTree = "<group>"; };
+		25AF1220192EBC5D00DE473C /* WebviewContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebviewContainerController.h; sourceTree = "<group>"; };
+		25AF1221192EBC5D00DE473C /* WebviewContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebviewContainerController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				25AF1201192EBBDB00DE473C /* ViewController.m */,
 				25AF1203192EBBDB00DE473C /* Images.xcassets */,
 				25AF11EF192EBBDB00DE473C /* Supporting Files */,
+				25AF1220192EBC5D00DE473C /* WebviewContainerController.h */,
+				25AF1221192EBC5D00DE473C /* WebviewContainerController.m */,
 			);
 			path = WebviewContainer;
 			sourceTree = "<group>";
@@ -256,6 +261,7 @@
 				25AF1202192EBBDB00DE473C /* ViewController.m in Sources */,
 				25AF11F9192EBBDB00DE473C /* AppDelegate.m in Sources */,
 				25AF11F5192EBBDB00DE473C /* main.m in Sources */,
+				25AF1222192EBC5D00DE473C /* WebviewContainerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
