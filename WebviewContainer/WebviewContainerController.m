@@ -46,6 +46,7 @@
 {
     if (!_webView) {
         _webView = [[UIWebView alloc] initWithFrame:CGRectZero];
+        [_webView setDataDetectorTypes:UIDataDetectorTypeNone];
         _webView.delegate = self;
     }
     return _webView;
